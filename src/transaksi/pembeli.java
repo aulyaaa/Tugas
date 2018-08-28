@@ -9,7 +9,7 @@ package transaksi;
  *
  * @author user
  */
-public class pembeli extends barang{
+public class pembeli extends barang1{
     private int id_pembeli;
     private String nama_pembeli;
     private String alamat;

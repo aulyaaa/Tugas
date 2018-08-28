@@ -9,13 +9,13 @@ package transaksi;
  *
  * @author user
  */
-public class barang{
+public class barang1{
     private int id_barang;
     private String nama_barang;
     private int harga_barang;
     private String merk_barang;
     
-    public barang (int id_barang,String nama_barang,int harga_barang,String merk_barang)
+    public barang1 (int id_barang,String nama_barang,int harga_barang,String merk_barang)
     {
         this.id_barang = id_barang;
         this.nama_barang = nama_barang;
@@ -31,7 +31,7 @@ public class barang{
     }
     public void total()
     {
-        System.out.println("----------------------------------");
+        System.out.println("-----------------------------------");
         System.out.println("Total Barang         :" +harga_barang);
     }
 }

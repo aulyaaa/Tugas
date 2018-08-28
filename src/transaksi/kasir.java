@@ -22,7 +22,7 @@ public class kasir extends pembeli {
     public void tampilkan()
     {
         System.out.println("Welcome");
-        System.out.println("----------------------------------");
+        System.out.println("-----------------------------------");
         System.out.println("Nama Kasir      :" +this.nama_kasir);
         System.out.println("Tanggal         :" +this.tgl);
         super.tampilkan();
